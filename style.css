@@ -3,13 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 .top {
     flex-flow: column wrap;
     background-color: #1f2937;
     color: #fff;
-    font-family: 'Roboto';
 }
 
 .header {
@@ -53,12 +53,17 @@ p.text1 {
     font-weight: 900;
 }
 
-.signup {
+button {
     background-color: #3882f6;
     color: #fff;
     padding: 10px;
     font-size: 14px;
     font-weight: 600;
+    border-radius: 6px;
+}
+
+.signup {
+    border-color: #1f2937;
 }
 
 .title {
@@ -105,4 +110,34 @@ img {
     display: flex;
     font-weight: bold;
     align-items: end;
+}
+
+.action {
+    background-color: #3882f6;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    color: #f9faf8;
+    padding: 25px;
+}
+
+.text3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup1 {
+    border-color: #fff;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #f9faf8;
 }
