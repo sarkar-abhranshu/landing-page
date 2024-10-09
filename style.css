@@ -60,3 +60,49 @@ p.text1 {
     font-size: 14px;
     font-weight: 600;
 }
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.images-info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.text {
+    max-width: 200px;
+    margin-bottom: 48px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote-text {
+    max-width: 300px;
+    font-style: italic;
+    font-size: 34px;
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    align-items: end;
+}
